@@ -1,0 +1,98 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a background image for the body */
+  body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+  }
+  
+  /* Style the header section */
+  header {
+    background-color: #1b1464;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  /* Style the main event details section */
+  #event-details {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  /* Style the highlights section */
+  .highlights-container {
+    margin-top: 1.5rem;
+    
+  }
+  
+  .highlights-list {
+    list-style: none;
+    padding-left: 1rem;
+  }
+  
+  .highlights-list li {
+    position: relative;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.4;
+  }
+  
+  .highlights-list li:before {
+    content: '\2022';
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #1b1464;
+  }
+  
+  /* Style the venue and event details */
+  #event-details h2 {
+    color: #1b1464;
+    margin-bottom: 1rem;
+  }
+  
+  #event-details p.venue {
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  
+  /* Style links */
+  a {
+    color: #1b1464;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #007bff;
+    text-decoration: underline;
+  }
+  
+  /* Style buttons */
+  .button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #1b1464;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #007bff;
+  }
+  
