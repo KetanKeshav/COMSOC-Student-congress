@@ -12,6 +12,17 @@ body, h1, h2, h3, p, ul, li {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #333;
   }
+  .logo {
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* This maintains the aspect ratio */
+    display: block; /* Ensures the logo is centered */
+    margin: 0 auto; /* Centers the logo horizontally */
+  }
+  /* Registration button styles */
+
+
+/* Rest of your existing styles */
+
   
   /* Style the header section */
   header {
@@ -19,6 +30,22 @@ body, h1, h2, h3, p, ul, li {
     color: white;
     text-align: center;
     padding: 2rem 0;
+  }
+  .registration-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 40%;
+    font-weight: bold;
+  }
+  
+  .registration-button:hover {
+    background-color: #ecc56b;
   }
   
   /* Style the main event details section */
@@ -29,6 +56,14 @@ body, h1, h2, h3, p, ul, li {
     background-color: rgba(255, 255, 255, 0.9);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+  }
+
+  .banner{
+    background-image: url('images/banner.jpeg');
+    background-size: cover;
+    height: 100%;
+    padding-bottom: 40%;
+
   }
   
   /* Style the highlights section */
@@ -60,14 +95,49 @@ body, h1, h2, h3, p, ul, li {
   
   /* Style the venue and event details */
   #event-details h2 {
+    
     color: #1b1464;
     margin-bottom: 1rem;
+    
   }
   
   #event-details p.venue {
     font-weight: bold;
     margin-top: 1rem;
   }
+
+  #schedule {
+    margin-top: 30px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  td[colspan] {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  td[rowspan] {
+    vertical-align: top;
+  }
+  
+  /* Add more styles as needed */
+  
   
   /* Style links */
   a {
