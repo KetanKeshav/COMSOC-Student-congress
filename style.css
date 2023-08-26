@@ -19,6 +19,28 @@ body, h1, h2, h3, p, ul, li {
     margin: 0 auto; /* Centers the logo horizontally */
   }
   /* Registration button styles */
+  #timer {  
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 1.6em;
+    font-weight: 600;
+    color: #e4e721;
+    text-shadow: 10 10 500px #f00f62;
+    display: flex;
+    justify-content: center;
+    
+    div {
+      display: inline-table;
+      min-width: 90px;
+      
+      span {
+        color: #B1CDF1;
+        display: block;
+        font-size: .35em;
+        font-weight: 400;
+      }
+    }
+  }
 
 
 /* Rest of your existing styles */
@@ -29,7 +51,7 @@ body, h1, h2, h3, p, ul, li {
     background-color: #1b1464;
     color: white;
     text-align: center;
-    padding: 2rem 0;
+    padding: 1rem 0;
   }
   .registration-button {
     display: inline-block;
